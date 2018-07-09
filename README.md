@@ -1,6 +1,8 @@
 gallery.sh
 ==========
 
+[![Build Status](https://travis-ci.org/Cyclenerd/gallery_shell.svg?branch=master)](https://travis-ci.org/Cyclenerd/gallery_shell)
+
 Bash Script to generate static web galleries. No server-side programs (i.e. PHP, MySQL) required.
 
 Overview
@@ -26,7 +28,9 @@ Requirements
 
 On a debian-based system (Ubuntu), just run `apt-get install imagemagick jhead` as root.
 
-Under macOS you can install it with MacPort (https://www.macports.org/): `sudo port install imagemagick jhead`
+Under macOS you can install it with:
+* MacPort (https://www.macports.org/): `sudo port install imagemagick jhead`
+* Homebrew (https://brew.sh/): `brew install imagemagick jhead`
 
 Usage
 -----
